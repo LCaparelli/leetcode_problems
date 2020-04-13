@@ -23,10 +23,7 @@
 
 package challenge
 
-import "fmt"
-
 func isHappy(n int) bool {
-	fmt.Printf("Input: %d\n", n)
 	hasAppeared := make(map[int]bool)
 	digs := digits(n)
 
