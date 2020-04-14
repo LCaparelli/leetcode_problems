@@ -16,7 +16,7 @@
  * Output: 4
  */
 
-package challenge
+package week_1
 
 // First attempt
 func singleNumber(nums []int) int {

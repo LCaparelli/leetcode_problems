@@ -21,7 +21,7 @@
  * 12 + 02 + 02 = 1
  */
 
-package challenge
+package week_1
 
 func isHappy(n int) bool {
 	hasAppeared := make(map[int]bool)

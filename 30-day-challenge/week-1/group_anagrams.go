@@ -19,7 +19,7 @@
  * The order of your output does not matter.
  */
 
-package challenge
+package week_1
 
 var primesMap = map[byte]int{'a': 17, 'b': 41, 'c': 59, 'd': 97, 'e': 101, 'f': 7, 'g': 13, 'h': 19, 'i': 43, 'j': 61, 'k': 71,
 	'l': 73, 'm': 2, 'n': 5, 'o': 11, 'p': 31, 'q': 37, 'r': 47, 's': 83, 't': 3, 'u': 29, 'v': 53,

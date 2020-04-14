@@ -1,4 +1,4 @@
-package challenge
+package week_1
 
 func areEqual(a, b []int) bool {
 	if len(a) != len(b) {

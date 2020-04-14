@@ -19,7 +19,7 @@
 // NOTE: not sure if they meant to imply the divide and conquer approach is faster, but it's O(n log n). O(n) is the
 // optimal solution for this problem.
 
-package challenge
+package week_1
 
 import "math"
 
@@ -28,7 +28,7 @@ func maxSubArray(nums []int) int {
 	currSum := 0
 
 	for _, number := range nums {
-		currSum = max(number, currSum + number)
+		currSum = max(number, currSum+number)
 		bestSum = max(currSum, bestSum)
 	}
 	return bestSum

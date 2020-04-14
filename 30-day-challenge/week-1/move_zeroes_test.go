@@ -1,4 +1,4 @@
-package challenge
+package week_1
 
 import (
 	"fmt"
@@ -10,9 +10,9 @@ func TestMoveZeroes(t *testing.T) {
 		numbers []int
 		want    []int
 	}{
-		{[]int{0,1,0,3,12}, []int{1,3,12,0,0}},
-		{[]int{0,1,0}, []int{1,0,0}},
-		{[]int{0,0}, []int{0,0}},
+		{[]int{0, 1, 0, 3, 12}, []int{1, 3, 12, 0, 0}},
+		{[]int{0, 1, 0}, []int{1, 0, 0}},
+		{[]int{0, 0}, []int{0, 0}},
 	}
 
 	for _, test := range tests {
