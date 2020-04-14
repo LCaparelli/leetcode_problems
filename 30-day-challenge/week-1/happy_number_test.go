@@ -1,4 +1,4 @@
-package week_1
+package challenge
 
 import (
 	"fmt"

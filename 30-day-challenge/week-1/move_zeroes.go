@@ -15,7 +15,7 @@
  * Minimize the total number of operations.
  */
 
-package week_1
+package challenge
 
 func moveZeroes(nums []int) {
 	var i int

@@ -19,7 +19,7 @@
 // NOTE: not sure if they meant to imply the divide and conquer approach is faster, but it's O(n log n). O(n) is the
 // optimal solution for this problem.
 
-package week_1
+package challenge
 
 import "math"
 
