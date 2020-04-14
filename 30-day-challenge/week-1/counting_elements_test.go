@@ -7,13 +7,13 @@ import (
 
 func TestCountElements(t *testing.T) {
 	var tests = []struct {
-		numbers	[]int
+		numbers []int
 		want    int
 	}{
-		{[]int{1,2,3}, 2},
-		{[]int{1,1,3,3,5,5,7,7}, 0},
-		{[]int{1,3,2,3,5,0}, 3},
-		{[]int{1,1,2,2}, 2},
+		{[]int{1, 2, 3}, 2},
+		{[]int{1, 1, 3, 3, 5, 5, 7, 7}, 0},
+		{[]int{1, 3, 2, 3, 5, 0}, 3},
+		{[]int{1, 1, 2, 2}, 2},
 	}
 
 	for _, test := range tests {

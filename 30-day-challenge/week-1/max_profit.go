@@ -71,7 +71,7 @@ func willDecrease(i int, prices []int) bool {
 }
 
 func main() {
-	maxProfit([]int{7,1,5,3,6,4})
-	maxProfit([]int{1,2,3,4,5})
-	maxProfit([]int{7,6,4,3,1})
+	maxProfit([]int{7, 1, 5, 3, 6, 4})
+	maxProfit([]int{1, 2, 3, 4, 5})
+	maxProfit([]int{7, 6, 4, 3, 1})
 }
